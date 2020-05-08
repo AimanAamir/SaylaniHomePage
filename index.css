@@ -1,0 +1,196 @@
+body{
+  margin: auto 0;
+  padding: 0;
+  width: 100%;
+  background-color: white;
+}
+.navbar{
+    height:70px;
+}
+.buttons
+{
+    float: right;
+    
+    
+}
+
+.fa {
+    padding: 5px;
+    font-size: 5px;
+    /* width: 50px; */
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+  }
+  
+  .fa:hover {
+    background: rgb(58, 109, 218);
+    color: white;
+    text-decoration: none;
+
+  }
+  
+.fa-facebook {
+    background: rgb(52, 97, 196);
+    color: white;
+  }
+  
+  .fa-twitter {
+    background: rgb(52, 97, 196);
+    color: white;
+  }
+
+.current
+{
+    color: white !important;
+    border-radius: 25px;
+    background-color: rgb(52, 97, 196);
+
+  }
+   .list a:hover{
+    color:white !important;
+    border-radius: 25px;
+    background-color: rgb(52, 97, 196);
+  }
+
+
+  li {
+    margin-right: 10px;
+    /* width:50px; */
+  }
+
+  .fa-youtube {
+    background: rgb(52, 97, 196);
+    color: white;
+  }
+  
+  .fa-instagram {
+    background: rgb(52, 97, 196);
+    color: white;
+  }
+  .fa-whatsapp{
+    background: rgb(59, 152, 59);
+    color: white;
+  }
+  .fa-whatsapp:hover{
+    background: rgb(59, 152, 59);
+    color: white;
+  }
+  
+  .counter {
+    background-color:rgb(52, 97, 196);
+    padding: 20px 0;
+    border-radius: 5px;
+    color:white
+}
+
+.count-title {
+    font-size: 40px;
+    font-weight: normal;
+    margin-top: 10px;
+    margin-bottom: 0;
+    text-align: center;
+}
+
+.count-text {
+    font-size: 13px;
+    font-weight: normal;
+    margin-top: 10px;
+    margin-bottom: 0;
+    text-align: center;
+}
+
+.fa-2x {
+    margin: 0 auto;
+    float: none;
+    display: table;
+    color: #4ad1e5;
+}
+hr {
+  background-color: #555;
+  border: none;
+  display: block;
+  height: 1px;
+  overflow: visible;
+  position: relative;
+  width: 300px;
+}
+
+hr:before {
+  background-color: rgb(5, 146, 87);
+  content: '';
+  display: block;
+  height: 2px;
+  left: 0;
+  position: absolute;
+  top: -2px;
+  width: 20%;
+  z-index: 1;
+}
+
+
+/* The grid: Four equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 20%;
+  height:12%;
+  padding: 10px;
+}
+
+/* Style the images inside the grid */
+.column img {
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+.column img:hover {
+  opacity: 1;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* The expanding image container (positioning is needed to position the close button and the text) */
+.container {
+  position: relative;
+  display: none;
+}
+
+/* Expanding image text */
+#imgtext {
+  position: absolute;
+  bottom: 15px;
+  left: 15px;
+  color: white;
+  font-size: 20px;
+}
+
+/* Closable button inside the image */
+.closebtn {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  color: white;
+  font-size: 35px;
+  cursor: pointer;
+}
+
+.fa-phone-alt {
+  /* background: rgb(52, 97, 196); */
+  color: rgb(13, 153, 36);
+}
+
+.fa-globe-europe{
+  color: rgb(13, 153, 36);
+
+}
+.fa-envelope{
+  color: rgb(13, 153, 36);
+
+}
+
+ 
